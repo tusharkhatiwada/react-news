@@ -68,3 +68,32 @@ body {
 .newsDescription {
     color: #564a4a;
 }
+.sidebar {
+    margin: 20px 5px;
+}
+.header {
+    background: #c2185b;
+    color: #fff;
+    padding: 5px;
+}
+.sliderContainer {
+    display: flex;
+    flex-direction: row;
+}
+.slider {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.featuredPosts {
+    background: rgba(0, 0, 0, 0.4);
+    width: 250px;
+    position: absolute;
+    bottom: 50px;
+    padding: 20px;
+}
+.featuredPosts .category,
+.featuredPosts .newsTitle a {
+    color: #fff;
+}
